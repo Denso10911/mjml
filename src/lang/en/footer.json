@@ -5,5 +5,6 @@
   "FOOTER_SPAN_4": "PAPEL ELEKTRONİK PARA VE ÖDEME HİZMETLERİ A.Ş.",
   "FOOTER_SPAN_5": "Ayazağa Mah. Eski büyükdere Cad. No: 3-5 Kat: 14 Maslak / Sarıyer / İstanbul - Mersis No: 0721080593400001",
   "EMAIL": "destek@papel.com.tr",
-  "PHONE": "0 850 241 24 24"  
+  "PHONE": "0 850 241 24 24",
+  "BASE_URL": "https://papelmailsignature.blob.core.windows.net/papelmailsignature"
 }

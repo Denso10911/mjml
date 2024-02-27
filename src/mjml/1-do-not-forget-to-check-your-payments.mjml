@@ -37,37 +37,32 @@
             css-class="margin-center"
         >
             <mj-column width="50%" vertical-align="middle">
-                <mj-image
-                    width="108px"
-                    height="32px"
-                    src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/logo.png"
-                    align="left"
-                />
+                <mj-image width="108px" height="32px" src="{{BASE_URL}}/logo.png" align="left" />
             </mj-column>
             <mj-column width="50%">
                 <mj-social mode="horizontal" align="right">
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/facebook-border.png"
+                        src="{{BASE_URL}}/facebook-border.png"
                         href="{{ instagram }}"
                         icon-size="32px"
                     />
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/twitter-border.png"
+                        src="{{BASE_URL}}/twitter-border.png"
                         href="{{ instagram }}"
                         icon-size="32px"
                     />
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/linkedin-border.png"
+                        src="{{BASE_URL}}/linkedin-border.png"
                         href="{{ instagram }}"
                         icon-size="32px"
                     />
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/instagram-border.png"
+                        src="{{BASE_URL}}/instagram-border.png"
                         href="{{ instagram }}"
                         icon-size="32px"
                     />
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/youtube-border.png"
+                        src="{{BASE_URL}}/youtube-border.png"
                         href="{{ instagram }}"
                         icon-size="32px"
                     />
@@ -84,7 +79,12 @@
             border-right="1px solid #E5E5E5"
         >
             <mj-column padding="0" width="100%">
-                <mj-image width="120px" height="120px" align="left" />
+                <mj-image
+                    src="{{BASE_URL}}/wallet-check-3.png"
+                    width="120px"
+                    height="120px"
+                    align="left"
+                />
                 <mj-text font-family="Inter">
                     <h1 style="font-size: 32px">{{PAGE_TITLE}}</h1>
                 </mj-text>
@@ -104,13 +104,13 @@
             <mj-column padding="0" width="100%">
                 <mj-social align="center" css-class="margin-center" padding-bottom="12px">
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/googleplay-border.png"
+                        src="{{BASE_URL}}/googleplay-border.png"
                         href="{{ googleplay }}"
                         icon-size="100px"
                         icon-height="28px"
                     />
                     <mj-social-element
-                        src="https://pf-merchant-papel-uat.papel.com.tr/images/mailing/appstore-border.png"
+                        src="{{BASE_URL}}/appstore-border.png"
                         href="{{ appstore }}"
                         icon-size="100px"
                         icon-height="28px"
