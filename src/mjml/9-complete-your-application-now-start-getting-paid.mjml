@@ -80,7 +80,7 @@
         >
             <mj-column padding="0" width="100%">
                 <mj-image
-                    src="{{BASE_URL}}/create-product.png"
+                    src="{{BASE_URL}}/list-check.png"
                     width="120px"
                     height="120px"
                     align="left"
@@ -90,8 +90,7 @@
                 </mj-text>
                 <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
                     <p class="mb-16">{{HELLO}},</p>
-                    <p>{{PARAGRAPH_1}}</p>
-                    <p class="mb-16">{{PARAGRAPH_2}}</p>
+                    <p class="mb-16">{{PARAGRAPH_1}}</p>
                     <p>{{SEE_YOU_LATER}},</p>
                     <p class="bold">Papel</p>
                 </mj-text>
