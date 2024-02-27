@@ -43,27 +43,27 @@
                 <mj-social mode="horizontal" align="right">
                     <mj-social-element
                         src="{{BASE_URL}}/facebook-border.png"
-                        href="{{ facebook }}"
+                        href="{facebook}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/twitter-border.png"
-                        href="{{ twitter }}"
+                        href="{twitter}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/linkedin-border.png"
-                        href="{{ linkedin }}"
+                        href="{linkedin}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/instagram-border.png"
-                        href="{{ instagram }}"
+                        href="{instagram}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/youtube-border.png"
-                        href="{{ youtube }}"
+                        href="{youtube}"
                         icon-size="32px"
                     />
                 </mj-social>
@@ -119,13 +119,13 @@
                 <mj-social align="center" css-class="margin-center" padding-bottom="12px">
                     <mj-social-element
                         src="{{BASE_URL}}/googleplay-border.png"
-                        href="{{ googleplay }}"
+                        href="{googleplay}"
                         icon-size="100px"
                         icon-height="28px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/appstore-border.png"
-                        href="{{ appstore }}"
+                        href="{appstore}"
                         icon-size="100px"
                         icon-height="28px"
                     />
@@ -141,13 +141,11 @@
                     css-class="font-neue"
                 >
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_1}}</span>
-                    <a style="text-decoration: underline; color: #ffffff" href="mailto:{{ email }}"
-                        >{{ email }}</a
+                    <a style="text-decoration: underline; color: #ffffff" href="mailto:{email}"
+                        >{email}</a
                     ><br />
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_2}}</span>
-                    <a style="text-decoration: none; color: #ffffff" href="tel:{{ phone }}"
-                        >{{ phone }}</a
-                    >
+                    <a style="text-decoration: none; color: #ffffff" href="tel:{phone}">{phone}</a>
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_3}}</span>
                 </mj-text>
                 <mj-text

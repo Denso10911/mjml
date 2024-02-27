@@ -23,9 +23,9 @@
             { text-align: center !important; margin: 10px 0 !important; } .margin-center table {
             margin: 0 auto !important; } .margin-center table td { text-align: center; } } p {
             margin: 0; padding: 0; } h1 { margin: 0; padding: 0; } .mb-24 { margin-bottom: 24px; }
-            .mb-12 { margin-bottom: 12px; } .mb-6 { margin-bottom: 6px; } .bold { font-weight: 600;
-            } .font-inter { font-family: "Inter", sans-serif } .font-neue {font-family:
-            "NeueMontreal", sans-serif}
+            .mb-16 {margin-bottom: 16px;} .mb-12 { margin-bottom: 12px; } .mb-6 { margin-bottom:
+            6px; } .bold { font-weight: 600; } .font-inter { font-family: "Inter", sans-serif }
+            .font-neue {font-family: "NeueMontreal", sans-serif} a { color: #000000 }
         </mj-style>
     </mj-head>
     <mj-body css-class="body">
@@ -80,7 +80,7 @@
         >
             <mj-column padding="0" width="100%">
                 <mj-image
-                    src="{{BASE_URL}}/wallet-check.png"
+                    src="{{BASE_URL}}/sent-money-success.png"
                     width="120px"
                     height="120px"
                     align="left"
@@ -89,9 +89,8 @@
                     <h1 style="font-size: 32px">{{PAGE_TITLE}}</h1>
                 </mj-text>
                 <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
-                    <p class="mb-24">{{HELLO}},</p>
-                    <p class="mb-24">{{PARAGRAPH_1}}</p>
-                    <p class="mb-24">{{PARAGRAPH_2}}</p>
+                    <p class="mb-16">{{HELLO}},</p>
+                    <p class="mb-16">{{PARAGRAPH_1}}</p>
                     <p>{{SEE_YOU_LATER}},</p>
                     <p class="bold">Papel</p>
                 </mj-text>

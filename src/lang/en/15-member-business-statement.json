@@ -1,0 +1,16 @@
+{
+  "PAGE_TITLE": "Üye iş yeri ekstresi",
+  "HELLO": "Merhaba",
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "Aylık üye iş yeri ekstreni aşağıda bulabilirsin.",
+  "PARAGRAPH_2": "Toplam Gelir <b>{revenue} {revenue_currency}</b><br/> Peşin İşlem Tutarı <b>{cash_trx_amount} {cash_trx_amount_currency}</b><br/> Taksitli İşlem Tutarı <b>{installment_trx_amount}{installment_trx_amount_currency}</b>",
+  "PARAGRAPH_3": "Toplam Maliyet <b>{total_cost} {total_cost_currency}</b><br/> Komisyon Kesintisi <b>{commission} {commission_currency}</b><br/> Aylık Ücret <b>{package_fee} {package_fee_currency}</b>",
+  "PARAGRAPH_4": "Net Hakediş </b>{net_progress_payment} {net_progress_payment_currency}</b>",
+  "PARAGRAPH_5": "Toplam Satış Adedi <b>{total_sales_count} {total_sales_count_base}</b>",
+  "PARAGRAPH_6": "ÜYE İŞYERİ EKSTRE BİLGİSİ",
+  "PARAGRAPH_7": "IBAN {IBAN}<br/> İş yeri Numarası <b>{merchant_number}</b><br/> Çalışma Koşulu <b>{commission_model}</b><br/> İşyeri Tipi <b>{commission_model_type}</b><br/> Düzenlenme Tarihi<b>{create_date}</b><br/> Dönem <b>{term}</b>",
+  "PARAGRAPH_8": "<b>{MerchantStmtDetail}</b> İŞLEM EKSTRESİ",
+  "PARAGRAPH_9": "Gün İşlem Adet Brüt Tutar Komisyon Tutarı Net Tutar Toplam <b>{trx_type_day_total} {trx_count_day_total} {trx_gross_amount_day_total} {trx_commission_amount_day_total} {trx_net_amount_day_total}</b>",
+  "PARAGRAPH_10": "TERİMLER",
+  "PARAGRAPH_11": "Satış: Satış işlemini ifade eder.<br/> Taksitli Satış: Taksitli satış işlemini ifade eder.<br/> Hesap Ekstresi: Ekstre döneminde günlük bazda hesabınıza yatırılan tutarları görmenizi sağlar.<br/> İade: İade işlemini ifade eder.<br/> İşlem Ekstresi: Gün bazında yapılan toplam işlem bilgilerini ve bu işlemlerden oluşan net tutarı görmenizi sağlar."
+}

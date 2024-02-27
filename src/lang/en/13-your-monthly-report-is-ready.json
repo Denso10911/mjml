@@ -1,0 +1,13 @@
+{
+  "PAGE_TITLE": "",
+  "HELLO": "Merhaba",
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "Geçen ayın işlem raporunu aşağıda bulabilirsin. İşlemlerin özeti şöyle:",
+  "PARAGRAPH_2": "Dönem: <b>{StartDate}</b> - <b>{EndDate}</b>",
+  "PARAGRAPH_3": "Toplam Satış Adedi: <b>{TotalTxnCount}</b>",
+  "PARAGRAPH_4": "Toplam Tahsilat Tutarı: <b>{TotalTxnAmount}</b> TL",
+  "PARAGRAPH_5": "İşlem Detayları:",
+  "PARAGRAPH_7": "ÜRÜN | ADET | TAHSİLAT TUTARI",
+  "PARAGRAPH_8": "Bu rapor, <b>{parametre_ilgili_ay}</b> ayına ait işlemlerini kapsamaktadır.",
+  "PARAGRAPH_9": "Her türlü soru ve destek için bize ulaşabilirsin."
+}
