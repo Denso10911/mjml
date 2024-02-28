@@ -1,0 +1,7 @@
+{
+  "PAGE_TITLE": "Ödemeyi tamamla",
+  "HELLO": "Merhaba",
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "firmasına yapacağın <b>{payment_amount}</b> TL tutarındaki ödemen için son tarih <b>{due_date}</b>. Ödemeni aşağıdaki \"<b>ÖDEME YAP</b>\" butonuna tıklayarak kolayca tamamlayabilirsin.",
+  "BUTTON": "Ödeme Yap"
+}

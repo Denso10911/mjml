@@ -1,0 +1,166 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Inter" href="https://fonts.googleapis.com/css?family=Inter" />
+
+        <mj-style>
+            @font-face { font-family: "NeueMontreal"; src:
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Medium.eot"); src:
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Medium.eot?#iefix")
+            format("embedded-opentype"),
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Medium.woff2")
+            format("woff2"),
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Medium.woff")
+            format("woff"); font-weight: 500; font-display: swap; } @font-face { font-family:
+            "NeueMontreal"; src:
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Regular.eot"); src:
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Regular.eot?#iefix")
+            format("embedded-opentype"),
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Regular.woff2")
+            format("woff2"),
+            url("https://pf-merchant-papel-dev.papel.com.tr/fonts/NeueMontreal-Regular.woff")
+            format("woff"); font-weight: 400; font-display: swap; } @media only screen and
+            (max-width: 480px) { .margin-center { text-align: center !important; } .margin-center p
+            { text-align: center !important; margin: 10px 0 !important; } .margin-center table {
+            margin: 0 auto !important; } .margin-center table td { text-align: center; } } p {
+            margin: 0; padding: 0; } h1 { margin: 0; padding: 0; } .mb-24 { margin-bottom: 24px; }
+            .mb-16 {margin-bottom: 16px;} .mb-12 { margin-bottom: 12px; } .mb-6 { margin-bottom:
+            6px; } .bold { font-weight: 600; } .font-inter { font-family: "Inter", sans-serif }
+            .font-neue {font-family: "NeueMontreal", sans-serif} a { color: #000000 }
+        </mj-style>
+    </mj-head>
+    <mj-body css-class="body">
+        <!--  _________________________________HEADER_________________________________  -->
+        <mj-section
+            padding="6px 7px"
+            background-color="#FFFFFF"
+            border="1px solid #E5E5E5"
+            css-class="margin-center"
+        >
+            <mj-column width="50%" vertical-align="middle">
+                <mj-image width="108px" height="32px" src="{{BASE_URL}}/logo.png" align="left" />
+            </mj-column>
+            <mj-column width="50%">
+                <mj-social mode="horizontal" align="right">
+                    <mj-social-element
+                        src="{{BASE_URL}}/facebook-border.png"
+                        href="{facebook}"
+                        icon-size="32px"
+                    />
+                    <mj-social-element
+                        src="{{BASE_URL}}/twitter-border.png"
+                        href="{twitter}"
+                        icon-size="32px"
+                    />
+                    <mj-social-element
+                        src="{{BASE_URL}}/linkedin-border.png"
+                        href="{linkedin}"
+                        icon-size="32px"
+                    />
+                    <mj-social-element
+                        src="{{BASE_URL}}/instagram-border.png"
+                        href="{instagram}"
+                        icon-size="32px"
+                    />
+                    <mj-social-element
+                        src="{{BASE_URL}}/youtube-border.png"
+                        href="{youtube}"
+                        icon-size="32px"
+                    />
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+        <!--  _________________________________BODY_________________________________  -->
+
+        <mj-section
+            padding="22px 7px"
+            background-color="#FFFFFF"
+            border-left="1px solid #E5E5E5"
+            border-right="1px solid #E5E5E5"
+        >
+            <mj-column padding="0" width="100%">
+                <mj-image
+                    src="{{BASE_URL}}/transfer-empty.png"
+                    width="120px"
+                    height="120px"
+                    align="left"
+                />
+                <mj-text font-family="Inter">
+                    <h1 style="font-size: 32px">{{PAGE_TITLE}}</h1>
+                </mj-text>
+                <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
+                    <p class="mb-16">{{HELLO}} <b>{customer_name}</b>,</p>
+                    <p class="mb-16 bold">{merchant_name}</p>
+                    <p class="mb-8">{{PARAGRAPH_1}}</p>
+                </mj-text>
+                <mj-button
+                    background-color="white"
+                    font-family="Open Sans"
+                    font-size="16px"
+                    width="100%"
+                    border="1px solid #CBCBCB"
+                    color="black"
+                    border-radius="8px"
+                    font-weight="700"
+                    >{{BUTTON}}</mj-button
+                >
+                <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
+                    <p>{{SEE_YOU_LATER}},</p>
+                    <p class="bold">Papel</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--  _________________________________FOOTER_________________________________  -->
+
+        <mj-section padding="6px 7px" background-color="#000000">
+            <mj-column padding="0" width="100%">
+                <mj-social align="center" css-class="margin-center" padding-bottom="12px">
+                    <mj-social-element
+                        src="{{BASE_URL}}/googleplay-border.png"
+                        href="{googleplay}"
+                        icon-size="100px"
+                        icon-height="28px"
+                    />
+                    <mj-social-element
+                        src="{{BASE_URL}}/appstore-border.png"
+                        href="{appstore}"
+                        icon-size="100px"
+                        icon-height="28px"
+                    />
+                </mj-social>
+                <mj-text
+                    font-size="12px"
+                    font-weight="400"
+                    font-family="NeueMontreal"
+                    line-height="18px"
+                    padding-bottom="12px"
+                    color="#ffffff"
+                    align="center"
+                    css-class="font-neue"
+                >
+                    <span style="color: #b0b2b4">{{FOOTER_SPAN_1}}</span>
+                    <a style="text-decoration: underline; color: #ffffff" href="mailto:{email}"
+                        >{email}</a
+                    ><br />
+                    <span style="color: #b0b2b4">{{FOOTER_SPAN_2}}</span>
+                    <a style="text-decoration: none; color: #ffffff" href="tel:{phone}">{phone}</a>
+                    <span style="color: #b0b2b4">{{FOOTER_SPAN_3}}</span>
+                </mj-text>
+                <mj-text
+                    font-size="11px"
+                    font-weight="400"
+                    line-height="16px"
+                    padding-bottom="12px"
+                    color="#ffffff"
+                    align="center"
+                    font-family="NeueMontreal"
+                    css-class="font-neue"
+                >
+                    <p style="color: #b0b2b4">{{FOOTER_SPAN_4}}</p>
+                    <p>{{FOOTER_SPAN_5}}</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
