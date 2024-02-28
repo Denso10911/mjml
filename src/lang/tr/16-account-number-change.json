@@ -1,5 +1,7 @@
 {
-  "PAGE_TITLE": "",
+  "PAGE_TITLE": "Hesap numarası değişikliği",
   "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere"
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "Papel İşletme Paneli'ne kayıtlı hesap numarası bilgilerin, talebin üzerine güncellendi.",
+  "PARAGRAPH_2": "Bu değişikliği sen yapmadıysan bize <b>{email}</b> e-posta adresi veya <b>{phone}</b> numaralı telefonumuzdan ulaşabilirsin."
 }
