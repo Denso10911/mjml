@@ -1,5 +1,6 @@
 {
-  "PAGE_TITLE": "",
+  "PAGE_TITLE": "Üye iş yeri günlük iade raporu",
   "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere"
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "<b>{ReportDate}</b> tarihine ait Günlük İade Raporu aşağıda yer almaktadır."
 }

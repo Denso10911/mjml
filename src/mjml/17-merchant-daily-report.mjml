@@ -25,7 +25,8 @@
             margin: 0; padding: 0; } h1 { margin: 0; padding: 0; } .mb-24 { margin-bottom: 24px; }
             .mb-16 {margin-bottom: 16px;} .mb-12 { margin-bottom: 12px; } .mb-6 { margin-bottom:
             6px; } .bold { font-weight: 600; } .font-inter { font-family: "Inter", sans-serif }
-            .font-neue {font-family: "NeueMontreal", sans-serif} a { color: #000000 }
+            .font-neue {font-family: "NeueMontreal", sans-serif} a { color: #000000 } b
+            {font-weight: 600 }
         </mj-style>
     </mj-head>
     <mj-body css-class="body">
