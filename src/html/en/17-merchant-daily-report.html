@@ -391,7 +391,7 @@
             <td  style="width:120px;">
               
       <img
-         src="https://papelmailsignature.blob.core.windows.net/papelmailsignature/list-check-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;" width="120" height="120"
+         src="https://papelmailsignature.blob.core.windows.net/papelmailsignature/invoice-saved-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;" width="120" height="120"
       />
     
             </td>
@@ -409,7 +409,7 @@
                   
       <div
          style="font-family:Inter;font-size:13px;line-height:1;text-align:left;color:#000000;"
-      ><h1 style="font-size: 32px">Üye iş yeri ekstresi</h1></div>
+      ><h1 style="font-size: 32px">Üye iş yeri günlük raporu</h1></div>
     
                 </td>
               </tr>
@@ -421,18 +421,15 @@
                   
       <div
          style="font-family:Open Sans;font-size:16px;line-height:24px;text-align:left;color:#000000;"
-      ><p class="mb-16">Merhaba,</p>
-                    <p class="mb-16">Aylık üye iş yeri ekstreni aşağıda bulabilirsin.</p>
-                    <p class="mb-16">Toplam Gelir <b>{revenue} {revenue_currency}</b><br/> Peşin İşlem Tutarı <b>{cash_trx_amount} {cash_trx_amount_currency}</b><br/> Taksitli İşlem Tutarı <b>{installment_trx_amount}{installment_trx_amount_currency}</b></p>
-                    <p class="mb-16">Toplam Maliyet <b>{total_cost} {total_cost_currency}</b><br/> Komisyon Kesintisi <b>{commission} {commission_currency}</b><br/> Aylık Ücret <b>{package_fee} {package_fee_currency}</b></p>
-                    <p class="mb-16">Net Hakediş </b>{net_progress_payment} {net_progress_payment_currency}</b></p>
-                    <p class="mb-16">Toplam Satış Adedi <b>{total_sales_count} {total_sales_count_base}</b></p>
-                    <p class="mb-16">ÜYE İŞYERİ EKSTRE BİLGİSİ</p>
-                    <p class="mb-16">IBAN {IBAN}<br/> İş yeri Numarası <b>{merchant_number}</b><br/> Çalışma Koşulu <b>{commission_model}</b><br/> İşyeri Tipi <b>{commission_model_type}</b><br/> Düzenlenme Tarihi<b>{create_date}</b><br/> Dönem <b>{term}</b></p>
-                    <p class="mb-16"><b>{MerchantStmtDetail}</b> İŞLEM EKSTRESİ</p>
-                    <p class="mb-16">Gün İşlem Adet Brüt Tutar Komisyon Tutarı Net Tutar Toplam <b>{trx_type_day_total} {trx_count_day_total} {trx_gross_amount_day_total} {trx_commission_amount_day_total} {trx_net_amount_day_total}</b></p>
-                    <p class="mb-8">TERİMLER</p>
-                    <p class="mb-16">Satış: Satış işlemini ifade eder.<br/> Taksitli Satış: Taksitli satış işlemini ifade eder.<br/> Hesap Ekstresi: Ekstre döneminde günlük bazda hesabınıza yatırılan tutarları görmenizi sağlar.<br/> İade: İade işlemini ifade eder.<br/> İşlem Ekstresi: Gün bazında yapılan toplam işlem bilgilerini ve bu işlemlerden oluşan net tutarı görmenizi sağlar.</p>
+      ><p class="mb-16">Merhaba</p>
+                    <p class="mb-16"><b>{ReportDate}</b> tarihine ait Günlük İşlem Raporu aşağıda yer almaktadır.</p>
+                    <p class="mb-8">Bugünün özeti:</p>
+                    <p class="mb-16">Tarih: <b>{ReportDate}</b> <br/> Toplam Satış Adedi: <b>{TotalDailyTxnCount}</b> <br/> Toplam Tahsilat Tutarı: <b>{TotalDailyTxnAmount}</b> TL</p>
+                    <p class="mb-6">İşlem Detayları:</p>
+                    <p class="mb-12">
+                        <b><a hreh="{DailyLinkTable}" target="_blank">{DailyLinkTable}</a></b>
+                    </p>
+                    <p class="mb-12">ÜRÜN | ADET | TAHSİLAT TUTARI</p>
                     <p>Görüşmek üzere,</p>
                     <p class="bold">Papel</p></div>
     

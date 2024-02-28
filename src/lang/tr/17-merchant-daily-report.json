@@ -1,5 +1,10 @@
 {
-  "PAGE_TITLE": "",
+  "PAGE_TITLE": "Üye iş yeri günlük raporu",
   "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere"
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "{ReportDate} tarihine ait Günlük İşlem Raporu aşağıda yer almaktadır.",
+  "PARAGRAPH_2": "Bugünün özeti:",
+  "PARAGRAPH_3": "Tarih: {ReportDate} <br/> Toplam Satış Adedi: {TotalDailyTxnCount} <br/> Toplam Tahsilat Tutarı: {TotalDailyTxnAmount} TL",
+  "PARAGRAPH_4": "İşlem Detayları:",
+  "PARAGRAPH_5": "ÜRÜN | ADET | TAHSİLAT TUTARI"
 }
