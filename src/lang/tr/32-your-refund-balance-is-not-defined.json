@@ -1,4 +1,5 @@
 {
-  "PAGE_TITLE": "",
-
+  "PAGE_TITLE": "İade bakiyen tanımlanmadı",
+  "PARAGRAPH_1": "<b>{REFNO}</b> referans numaralı iade işlemin için gerekli <b>{AMOUNT}</b> TL iade bakiyesi talebin, tutarın gönderilmemesi veya eksik gönderilmesi nedeniyle onaylanmamıştır.",
+  "PARAGRAPH_2": "Papel İşletme Paneli'ne giriş yaparak ilgili işlem için tekrar iade işlemi başlatabilirsin."
 }
