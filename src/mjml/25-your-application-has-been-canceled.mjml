@@ -81,7 +81,7 @@
         >
             <mj-column padding="0" width="100%">
                 <mj-image
-                    src="{{BASE_URL}}/valid-document.png"
+                    src="{{BASE_URL}}/file-permission-2.png"
                     width="120px"
                     height="120px"
                     align="left"

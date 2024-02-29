@@ -1,7 +1,6 @@
 {
   "PAGE_TITLE": "Üye iş yeri aylık raporu",
-  "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere",
+
   "PARAGRAPH_1": "<b>{ReportDate}</b> tarihine ait Aylık İşlem Raporu aşağıda yer almaktadır.",
   "PARAGRAPH_2": "Aylık özeti::",
   "PARAGRAPH_3": "Tarih: <b>{ReportDate}</b> <br/> Toplam Satış Adedi: <b>{TotalMonthlyTxnCount}</b> <br/> Toplam Tahsilat Tutarı: <b>{TotalMonthlyTxnAmount}</b> TL",

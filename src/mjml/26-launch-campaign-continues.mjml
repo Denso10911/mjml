@@ -81,7 +81,7 @@
         >
             <mj-column padding="0" width="100%">
                 <mj-image
-                    src="{{BASE_URL}}/valid-document.png"
+                    src="{{BASE_URL}}/advantage.png"
                     width="120px"
                     height="120px"
                     align="left"
@@ -93,6 +93,9 @@
                     <p class="mb-16">{{HELLO}},</p>
                     <p class="mb-16">{{PARAGRAPH_1}}</p>
                     <p class="mb-16">{{PARAGRAPH_2}}</p>
+                    <p class="mb-16 bold">
+                        <a href="{ClickForDetailedInformation}">{{PARAGRAPH_3}}</a>
+                    </p>
                     <p>{{SEE_YOU_LATER}},</p>
                     <p class="bold">Papel</p>
                 </mj-text>

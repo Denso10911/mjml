@@ -1,7 +1,6 @@
 {
   "PAGE_TITLE": "Üye iş yeri ekstresi",
-  "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere",
+
   "PARAGRAPH_1": "Aylık üye iş yeri ekstreni aşağıda bulabilirsin.",
   "PARAGRAPH_2": "Toplam Gelir <b>{revenue} {revenue_currency}</b><br/> Peşin İşlem Tutarı <b>{cash_trx_amount} {cash_trx_amount_currency}</b><br/> Taksitli İşlem Tutarı <b>{installment_trx_amount}{installment_trx_amount_currency}</b>",
   "PARAGRAPH_3": "Toplam Maliyet <b>{total_cost} {total_cost_currency}</b><br/> Komisyon Kesintisi <b>{commission} {commission_currency}</b><br/> Aylık Ücret <b>{package_fee} {package_fee_currency}</b>",

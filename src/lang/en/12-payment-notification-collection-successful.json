@@ -1,6 +1,5 @@
 {
   "PAGE_TITLE": "Ödeme Bildirimi: Tahsilat başarılı",
-  "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere",
+
   "PARAGRAPH_1": "<b>{paymentDate}</b> tarihinde yaptığın satış için <b>{Amount}</b> TL tutarındaki ödeme başarıyla tahsil edildi. Papel İşletme Hesabı'na giriş yaparak daha fazla bilgi edinebilirsin."
 }
