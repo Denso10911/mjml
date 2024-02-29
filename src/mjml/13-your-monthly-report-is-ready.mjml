@@ -89,6 +89,7 @@
                 <mj-text font-family="Inter">
                     <h1 style="font-size: 32px">{{PAGE_TITLE}}</h1>
                 </mj-text>
+
                 <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
                     <p class="mb-16">{{HELLO}}, <b>{MerchantName}</b></p>
                     <p class="mb-16">{{PARAGRAPH_1}}</p>

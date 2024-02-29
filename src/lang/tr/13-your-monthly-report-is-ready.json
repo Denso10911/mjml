@@ -1,5 +1,5 @@
 {
-  "PAGE_TITLE": "",
+  "PAGE_TITLE": "Aylık raporun hazır",
 
   "PARAGRAPH_1": "Geçen ayın işlem raporunu aşağıda bulabilirsin. İşlemlerin özeti şöyle:",
   "PARAGRAPH_2": "Dönem: <b>{StartDate}</b> - <b>{EndDate}</b>",
