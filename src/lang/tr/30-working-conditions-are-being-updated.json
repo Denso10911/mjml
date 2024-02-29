@@ -1,4 +1,6 @@
 {
-  "PAGE_TITLE": "",
-
+  "PAGE_TITLE": "Çalışma şartları güncelleniyor",
+  "PARAGRAPH_1": "Papel İşletme Paneli üyeliğine ilişkin çalışma şartlarımızda <b>{dd.mm.yyyy}</b> tarihinden itibaren geçerli olacak şekilde güncellemeler yapılacaktır. Bu güncellemelerle amacımız, hizmetlerimizi sürekli iyileştirmek ve işletmelerimize daha iyi bir deneyim sunmaktır.",
+  "PARAGRAPH_2": "Güncellenen çalışma şartlarımızın detaylarına Papel İşletme Paneli sayfasından ulaşabilirsin.",
+  "PARAGRAPH_3": "Soru, görüş ve önerilerin için <b>{email}</b> e-posta adresi veya <b>{phone}</b> numaralı telefonumuzdan ulaşabilirsin."
 }
