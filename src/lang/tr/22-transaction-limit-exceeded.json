@@ -1,5 +1,7 @@
 {
-  "PAGE_TITLE": "",
+  "PAGE_TITLE": "İşlem Limiti Aşıldı",
   "HELLO": "Merhaba",
-  "SEE_YOU_LATER": "Görüşmek üzere"
+  "SEE_YOU_LATER": "Görüşmek üzere",
+  "PARAGRAPH_1": "Günlük işlem limitin dolmuş durumda. Bu nedenle, müşterilerinden ödeme alırken sorun yaşayabilirsin. Detaylı bilgi ve çözüm önerileri için bizimle iletişime geçebilirsin."
+        
 }
