@@ -38,33 +38,39 @@
             css-class="margin-center"
         >
             <mj-column width="50%" vertical-align="middle">
-                <mj-image width="108px" height="32px" src="{{BASE_URL}}/logo.png" align="left" />
+                <mj-image
+                    width="108px"
+                    href="{{HOME}}"
+                    height="32px"
+                    src="{{BASE_URL}}/logo.png"
+                    align="left"
+                />
             </mj-column>
             <mj-column width="50%">
                 <mj-social mode="horizontal" align="right">
                     <mj-social-element
                         src="{{BASE_URL}}/facebook-border.png"
-                        href="{facebook}"
+                        href="{{FACEBOOK}}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/twitter-border.png"
-                        href="{twitter}"
+                        href="{{TWITTER}}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/linkedin-border.png"
-                        href="{linkedin}"
+                        href="{{LINKEDIN}}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/instagram-border.png"
-                        href="{instagram}"
+                        href="{{INSTAGRAM}}"
                         icon-size="32px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/youtube-border.png"
-                        href="{youtube}"
+                        href="{{YOUTUBE}}"
                         icon-size="32px"
                     />
                 </mj-social>
@@ -86,10 +92,14 @@
                     height="120px"
                     align="left"
                 />
-                <mj-text font-family="Inter">
+                <mj-text font-family="Inter, Helvetica, Arial, sans-serif">
                     <h1 style="font-size: 32px">{{PAGE_TITLE}}</h1>
                 </mj-text>
-                <mj-text font-size="16px" font-family="Open Sans" line-height="24px">
+                <mj-text
+                    font-size="16px"
+                    font-family="Open Sans, Helvetica, Arial, sans-serif"
+                    line-height="24px"
+                >
                     <p class="mb-16">{{HELLO}},</p>
                     <p class="mb-16">{{PARAGRAPH_1}}</p>
                     <p class="mb-16">{{PARAGRAPH_2}}</p>
@@ -106,13 +116,13 @@
                 <mj-social align="center" css-class="margin-center" padding-bottom="12px">
                     <mj-social-element
                         src="{{BASE_URL}}/googleplay-border.png"
-                        href="{googleplay}"
+                        href="{{GOOGLEPLAY}}"
                         icon-size="100px"
                         icon-height="28px"
                     />
                     <mj-social-element
                         src="{{BASE_URL}}/appstore-border.png"
-                        href="{appstore}"
+                        href="{{APPSTORE}}"
                         icon-size="100px"
                         icon-height="28px"
                     />
@@ -120,7 +130,7 @@
                 <mj-text
                     font-size="12px"
                     font-weight="400"
-                    font-family="NeueMontreal"
+                    font-family="NeueMontreal, Helvetica, Arial, sans-serif"
                     line-height="18px"
                     padding-bottom="12px"
                     color="#ffffff"
@@ -142,7 +152,7 @@
                     padding-bottom="12px"
                     color="#ffffff"
                     align="center"
-                    font-family="NeueMontreal"
+                    font-family="NeueMontreal, Helvetica, Arial, sans-serif"
                     css-class="font-neue"
                 >
                     <p style="color: #b0b2b4">{{FOOTER_SPAN_4}}</p>
