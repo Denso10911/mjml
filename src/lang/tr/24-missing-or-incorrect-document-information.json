@@ -2,5 +2,5 @@
   "PAGE_TITLE": "Eksik veya hatalı belge bilgilendirmesi",
 
   "PARAGRAPH_1": "Seni Papel İşletme Paneli başvurun hakkında bilgilendirmek istiyoruz. Başvurunda bazı belgelerin eksik ya da hatalı olduğunu fark ettik. İlgili belgeleri hemen tamamlayarak ödeme almaya başlayabilirsin.",
-  "PARAGRAPH_2": "Soru, görüş ve önerilerin için <b>{email}</b> e-posta adresi veya <b>{phone}</b> numaralı telefonumuzdan ulaşabilirsin."
+  "PARAGRAPH_2": "Soru, görüş ve önerilerin için <b>{{EMAIL}}</b> e-posta adresi veya <b>{{PHONE}}</b> numaralı telefonumuzdan ulaşabilirsin."
 }

@@ -2,5 +2,5 @@
   "PAGE_TITLE": "Hesap numarası değişikliği",
 
   "PARAGRAPH_1": "Papel İşletme Paneli'ne kayıtlı hesap numarası bilgilerin, talebin üzerine güncellendi.",
-  "PARAGRAPH_2": "Bu değişikliği sen yapmadıysan bize <b>{email}</b> e-posta adresi veya <b>{phone}</b> numaralı telefonumuzdan ulaşabilirsin."
+  "PARAGRAPH_2": "Bu değişikliği sen yapmadıysan bize <b>{{EMAIL}}</b> e-posta adresi veya <b>{{PHONE}}</b> numaralı telefonumuzdan ulaşabilirsin."
 }

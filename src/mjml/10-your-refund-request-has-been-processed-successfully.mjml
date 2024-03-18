@@ -73,6 +73,11 @@
                         href="{{YOUTUBE}}"
                         icon-size="32px"
                     />
+                    <mj-social-element
+                        src="{{UAT_URL}}/tiktok.png"
+                        href="{{TIKTOK}}"
+                        icon-size="32px"
+                    />
                 </mj-social>
             </mj-column>
         </mj-section>
@@ -112,20 +117,20 @@
 
         <mj-section padding="6px 7px" background-color="#000000">
             <mj-column padding="0" width="100%">
-                <mj-social align="center" css-class="margin-center" padding-bottom="12px">
-                    <mj-social-element
-                        src="{{BASE_URL}}/googleplay-border.png"
-                        href="{{GOOGLEPLAY}}"
-                        icon-size="100px"
-                        icon-height="28px"
-                    />
-                    <mj-social-element
-                        src="{{BASE_URL}}/appstore-border.png"
-                        href="{{APPSTORE}}"
-                        icon-size="100px"
-                        icon-height="28px"
-                    />
-                </mj-social>
+                <!--                <mj-social align="center" css-class="margin-center" padding-bottom="12px">-->
+                <!--                    <mj-social-element-->
+                <!--                        src="{{BASE_URL}}/googleplay-border.png"-->
+                <!--                        href="{{GOOGLEPLAY}}"-->
+                <!--                        icon-size="100px"-->
+                <!--                        icon-height="28px"-->
+                <!--                    />-->
+                <!--                    <mj-social-element-->
+                <!--                        src="{{BASE_URL}}/appstore-border.png"-->
+                <!--                        href="{{APPSTORE}}"-->
+                <!--                        icon-size="100px"-->
+                <!--                        icon-height="28px"-->
+                <!--                    />-->
+                <!--                </mj-social>-->
                 <mj-text
                     font-size="12px"
                     font-weight="400"
@@ -137,11 +142,13 @@
                     css-class="font-neue"
                 >
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_1}}</span>
-                    <a style="text-decoration: underline; color: #ffffff" href="mailto:{email}"
-                        >{email}</a
+                    <a style="text-decoration: underline; color: #ffffff" href="mailto:{{EMAIL}}"
+                        >{{EMAIL}}</a
                     ><br />
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_2}}</span>
-                    <a style="text-decoration: none; color: #ffffff" href="tel:{phone}">{phone}</a>
+                    <a style="text-decoration: none; color: #ffffff" href="tel:{{PHONE}}"
+                        >{{PHONE}}</a
+                    >
                     <span style="color: #b0b2b4">{{FOOTER_SPAN_3}}</span>
                 </mj-text>
                 <mj-text
